@@ -12,7 +12,6 @@ const Currency = () => {
         });
 
     }
-
       
     return (
         <div className='alert alert-primary'>
