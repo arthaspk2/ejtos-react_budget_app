@@ -13,7 +13,7 @@ const Budget = () => {
         return (total += item.cost);
     }, 0);
 
-    alert("entre event.target.value " + event.target.value + "newBudget: "+ newBudget + "budget" + budget + " totalExpenses:"+ totalExpenses);
+    //alert("entre event.target.value " + event.target.value + "newBudget: "+ newBudget + "budget" + budget + " totalExpenses:"+ totalExpenses);
     setNewBudget(budget);
     
     if(newBudgetVar> 20000) {       
